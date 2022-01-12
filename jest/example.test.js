@@ -43,3 +43,9 @@ describe("expect test", () => {
     expect(new Foo()).toBeInstanceOf(Foo);
   });
 });
+
+
+<div key={idx}>
+        <li {movie} </li>
+        <button onClick={deleteMovie(idx)}>삭제</button>
+        </div>
