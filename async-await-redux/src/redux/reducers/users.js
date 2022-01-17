@@ -7,6 +7,7 @@ const initialState = {
 };
 
 export default function users(state = initialState, action) {
+  console.log("users");
   if (action.type === GET_USERS_START) {
     return {
       ...state,
